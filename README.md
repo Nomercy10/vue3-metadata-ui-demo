@@ -25,3 +25,11 @@ The Metadata UI Project is a web application built with Vue 3 that demonstrates 
 1. Clone the repository:
    ```bash
    git clone https://github.com/nomercy10/metadata-ui-vue3.git
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Run development server
+   ```bash
+   npm run dev
