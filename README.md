@@ -11,6 +11,7 @@ The Metadata UI Project is a web application built with Vue 3 that demonstrates 
 - Header component with customizable title, description, and buttons.
 - Text transformation functionality to switch between uppercase and lowercase.
 - Responsive design with Tailwind CSS for styling.
+- FormBuilder component showcasing different types of form fields
 
 ## Getting Started
 
