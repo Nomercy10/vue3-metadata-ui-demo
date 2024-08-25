@@ -1,26 +1,29 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+  <footer>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <h1 class="green">Welcome to metadata driven Vue 3 application</h1>
+      
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/demo1">Demo1</RouterLink>
+        <RouterLink to="/demo2">Demo2</RouterLink>
       </nav>
     </div>
-  </header>
-
+  </footer>
   <RouterView />
 </template>
 
 <style scoped>
+h1 {
+  font-weight: 500;
+  font-size: 2.6rem;
+  position: relative;
+  top: -10px;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;

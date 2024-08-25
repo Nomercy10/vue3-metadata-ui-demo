@@ -1,12 +1,12 @@
 {
-  "name": "@richardev/vue3-boilerplate",
-  "description": "Quick boilerplate for your next project, containing - Vite, Vuex, Vue Router & Tailwind CSS. This was created as part of my tutorial series.",
+  "name": "@nomercy10/metadata-ui-vue3",
+  "description": "Vue 3 project to showcase a metadata UI for a hypothetical application",
   "private": false,
   "type": "module",
   "version": "1.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/richardevcom/vue3-boilerplate.git"
+    "url": ""
   },
   "scripts": {
     "dev": "vite --config='vite.config.dev.mjs'",
@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "axios": "^1.7.5",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"

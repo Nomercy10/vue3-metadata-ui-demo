@@ -1,0 +1,23 @@
+{
+    "dynamicComponentToggles" :{
+      "showWhich": "DynamicOne",
+      "showHeader": true,
+      "showFooter": true,
+      "showImage": false
+    },
+
+    "componentData": {
+      "header": {
+        "title": "Header component",
+        "description": "This is a dynamic component that is shown based on demo1.json",
+        "buttons": [
+          {
+            "type": "submit",
+            "label": "Example button",
+            "link": ""
+          }
+        ],
+        "logo": "https://via.placeholder.com/150"
+      }
+    }
+}
